@@ -1,4 +1,4 @@
-This script is a (currently draft in development) of an implementation for the VQ4DiT technique for quantization outlined in the paper "" by Deng et al.
+This script is a (currently draft in development, ongoing of an implementation for the VQ4DiT technique for quantization outlined in the paper "" by Deng et al.
 
 Paper:
 https://huggingface.co/papers/2408.17131
