@@ -6,7 +6,7 @@ Implemented steps are:
 3. Quantization: The weights are replaced by their closest codebook vectors based on assignments.
 4. Save and Push: The quantized model is saved locally and optionally uploaded to the Hugging Face Hub.
 
-Provided in the repo are a python implementation draft and a js implementation draft.
+Provided in the repo are a python implementation draft and a jupyter notebook implementation draft.
 
 Further additions could include CUDA optimization.
 
