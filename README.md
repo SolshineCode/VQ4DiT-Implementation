@@ -8,6 +8,8 @@ Implemented steps are:
 
 Provided in the repo are a python implementation draft and a jupyter notebook implementation draft.
 
+Please make sure you have appropriate required libraries installed such as transformers, since there is no requirements.txt here (due to very limited pip installation needs.)
+
 Further additions could include CUDA optimization.
 
 
