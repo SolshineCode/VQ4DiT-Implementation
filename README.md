@@ -1,4 +1,15 @@
-This script is a (currently draft in development, ongoing of an implementation for the VQ4DiT technique for quantization outlined in the paper "" by Deng et al.
+This script is an implementation for the VQ4DiT technique for quantization outlined in the paper "" by Deng et al.
+
+Implemented steps are:
+1. Load the Model: The script loads a pretrained model from Hugging Face Hub.
+2. Initialization: The weights are clustered using K-Means to create a codebook and assignments.
+3. Quantization: The weights are replaced by their closest codebook vectors based on assignments.
+4. Save and Push: The quantized model is saved locally and optionally uploaded to the Hugging Face Hub.
+
+Provided in the repo are a python implementation draft and a js implementation draft.
+
+Further additions could include CUDA optimization.
+
 
 Paper:
 https://huggingface.co/papers/2408.17131
