@@ -50,3 +50,12 @@ Calibrating the codebook and assignments using a zero-data and block-wise calibr
 
 Save the quantized model locally and then use the Hugging Face Hub API to push it.
 
+The implementation still has room for improvement in areas like:
+
+- More sophisticated handling of DiT-specific architectures (MHSA, PF)
+- Implementation of the CUDA kernel optimizations mentioned in the appendix
+- Additional verification tests and metrics tracking
+- Memory optimizations for large models
+
+
+PRs welcome
